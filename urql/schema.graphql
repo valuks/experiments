@@ -10,3 +10,8 @@ type WorkoutExerciseSet {
  id: ID!
  completed: String
 }
+
+
+type Mutation {
+ createWorkoutExerciseSet( WorkoutExerciseId: ID): WorkoutExerciseSet
+}
