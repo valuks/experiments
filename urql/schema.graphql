@@ -1,0 +1,12 @@
+type Workout {
+ id: ID!
+ WorkoutExercises: [WorkoutExercise]
+}
+type WorkoutExercise {
+ id: ID!
+ Sets: [WorkoutExerciseSet]
+}
+type WorkoutExerciseSet {
+ id: ID!
+ completed: String
+}
